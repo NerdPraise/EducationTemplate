@@ -231,12 +231,6 @@ form.example button {
     display: inline-flex;
 }
 
-
-
-
-
-
-
    @media only screen and (max-width:768px) {
     [class*="col-xs-6"]{
         width: 100%;

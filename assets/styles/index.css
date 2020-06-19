@@ -274,3 +274,9 @@ body {
 .navbar-toggler:hover {
 	outline: none;
 }
+
+
+footer {
+    background-color: #333333;
+    min-height: 350px;
+}
