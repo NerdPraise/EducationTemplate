@@ -150,12 +150,13 @@ form.example::after {
     color: black;
 }
 
+
 /* Main Body Styling - Courses */
 
 .course-card-bg {
     height: 200px;
     background: linear-gradient( 0deg, rgba(0, 0, 0, 0.0968354), rgba(0, 0, 0, 0.0968354));
-    background-image: url("../images/computer.png");
+    background-image: url("../images/computer.png") ;
 }
 
 .course-card-bg1 {
