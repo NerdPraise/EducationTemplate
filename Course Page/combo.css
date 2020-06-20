@@ -1,0 +1,262 @@
+html,
+body {
+	box-sizing: border-box;
+	overflow-x: hidden;
+	height: 100%;
+	/* overflow-y: auto; */
+	font-family: "DM Sans", sans-serif;
+}
+.primary-bg-light {
+	background-color: #fdf0e9;
+}
+.primary-bg {
+	background-color: #f07767;
+}
+.secondary-text {
+	color: #6483f6;
+}
+.secondary-bg {
+	background-color: #6483f6;
+}
+.btn-text-grey {
+	color: rgba(51, 51, 51, 0.503623);
+}
+.accent-bg {
+	background-color: #f2a4e6;
+}
+
+.social-links {
+	height: 30px;
+	width: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	border: 1px solid #f07767;
+}
+
+.btn-outline-primary {
+	border: 1px solid rgba(240, 120, 103, 0.295828);
+}
+.btn-outline-white {
+	border: 1px solid white;
+}
+/* Style the Header Text and Navbar */
+.headtext {
+    text-align: center;
+    padding-top: 60px;
+    background-color: #FDF0E9;
+    height: 300px;
+}
+.example {
+    text-align: center;
+}
+.navbar-nav .fa  {
+    padding: 10px 10px;
+    font-size: 10px;
+    text-decoration: none;
+    position: relative;
+    padding-top: 10px;
+    font-size: 20px;
+    color:black;
+    
+}
+/* Style the search field */
+form.example input[type=text] {
+    padding: 05px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: center;
+    width: 200px;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: center;
+    width: 50px;
+    padding: 05px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+/* Main Body Styling */
+.skills {
+    padding-top: 20px;
+    position: relative;
+    color: black;
+}
+.skills p {
+    padding-left: 15px;
+}
+
+.list-inline {
+    padding: 5px;
+    text-align: left;
+    margin: 15px;
+    
+}
+#dropdown {
+ border: 1px solid black;
+ border-radius: 3px;
+ padding: 5px;
+ margin-bottom: 10px;
+}
+.list-inline li {
+    padding: 5px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    align-items: center;
+    text-align: center;
+}
+.list-inline li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Main Body Styling - Courses */
+.course-card-bg {
+	height: 200px;
+	background: linear-gradient(
+		0deg,
+		rgba(0, 0, 0, 0.0968354),
+		rgba(0, 0, 0, 0.0968354)
+	);
+	background-image: url("images/computer.png");
+}
+.course-card-bg1 {
+	height: 200px;
+	background: linear-gradient(
+		0deg,
+		rgba(0, 0, 0, 0.0968354),
+		rgba(0, 0, 0, 0.0968354)
+	);
+	background-image: url("images/coding.png");
+}
+.course-card-bg2 {
+	height: 200px;
+	background: linear-gradient(
+		0deg,
+		rgba(0, 0, 0, 0.0968354),
+		rgba(0, 0, 0, 0.0968354)
+	);
+	background-image: url("images/design.png");
+}
+.course-card-bg3 {
+	height: 200px;
+	background: linear-gradient(
+		0deg,
+		rgba(0, 0, 0, 0.0968354),
+		rgba(0, 0, 0, 0.0968354)
+	);
+	background-image: url("images/economics.png");
+}
+.course-card-bg4 {
+	height: 200px;
+	background: linear-gradient(
+		0deg,
+		rgba(0, 0, 0, 0.0968354),
+		rgba(0, 0, 0, 0.0968354)
+	);
+	background-image: url("images/engineering.png");
+}
+.course-card-bg5 {
+	height: 200px;
+	background: linear-gradient(
+		0deg,
+		rgba(0, 0, 0, 0.0968354),
+		rgba(0, 0, 0, 0.0968354)
+	);
+	background-image: url("images/programming.png");
+}
+.more-courses {
+    text-align: center;
+    padding: 15px;
+}
+.more-courses a{
+  text-decoration: none;
+  color: black;
+}
+
+
+/* Main Body Styling - Tutors */
+.tutors {
+    text-align: center;
+    padding-top: 40px;
+}
+.tutor-info{
+    padding-top: 1px;
+    line-height: 2px;
+}
+.tutor-info .fa{
+    padding: 0px 10px;
+    font-size: 10px;
+    text-decoration: none;
+    position: relative;
+    font-size: 20px;
+    color:black;
+}
+/* Main Body Styling - Testimonial */
+.testimonial {
+    padding-top: 100px;
+    margin-top: 30px;
+    text-align: left;
+    padding-bottom: 100px;
+    
+}
+.testimonial h6{
+    text-transform: uppercase;
+    color: #6483F6;
+}
+.testimonial .text {
+    padding-top: 100px;
+}
+
+
+
+/* Newsletter Subscribe Styling */
+.newsletter{
+    text-align: center;
+    padding-bottom: 100px;
+}
+/* Style the submit button */
+form.example button {
+    float: center;
+    width: 80px;
+    padding: 05px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+
+
+
+footer {
+    padding-top:5px;
+    background-color: #333333;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    padding-top: 40px;
+}
+}
