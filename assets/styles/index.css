@@ -280,3 +280,24 @@ footer {
     background-color: #333333;
     min-height: 350px;
 }
+
+.about-nav {
+	background-image: url("./../images/blue_bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 500px;
+}
+
+.gal {
+	background-color: #FDF0E9;
+}
+
+.sixe {
+	width: 50%;
+}
+
+@media only screen and (max-width:690px) {
+	.sixe {
+		width:100%
+	}
+}
